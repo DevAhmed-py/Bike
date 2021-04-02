@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+body {
+    background:#eee;
+    font-family: Helvetica; 
+    margin:0px;
+}
+
+#wrapper{
+    background: white;
+    width: 80%;
+    margin:0 auto;
+}
+
+#main-navigation {
+    background: brown;
+}
+
+#main-navigation ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    //justify-content: center;
+}
+
+#main-navigation li {
+    flex: 1 1 0;
+}
+
+#main-navigation a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+
+#main-navigation a:hover {
+    background: #ccc;
+}
+/*
+#main-navigation a.current:hover{
+    background: #ccc;
+    border-radius: 5px;
+}
+
+#main-navigation a.about-us{
+    background: #ccc;
+    border-radius: 5px;
+}
+*/
+#lead-banner img{
+    width: 100%;
+}
+
+#shop{
+    margin: 30px auto;
+    text-align: center;
+}
+
+#shop h2.product-name{
+    font-size: 15px;
+    margin: 0px;
+}
+
+#shop span.price{
+    font-size: 40px;
+    display: block;
+    margin: 10px 0;
+}
+
+#shop a.add-to-shopping{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color: brown;
+    border: 2px solid brown;
+    padding: 10px;
+    margin: 15px auto;
+    width: 180px;
+}
+
+#shop img.rating{
+    margin-left: 23px;
+}
+
+#footer img{
+    width: 100%;
+}
